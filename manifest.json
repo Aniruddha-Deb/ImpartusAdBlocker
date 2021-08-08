@@ -3,7 +3,7 @@
 	"version": "1.0",
 	"description": "Blocks Ads in Impartus",
 	"content_scripts": [ {
-		"matches": ["https://a.impartus.com/ilc/#/home"],
+		"matches": ["https://a.impartus.com/ilc/*"],
 		"run_at": "document_end",
 		"js": ["jquery.min.js", "plugin.js"]
 	} ],
